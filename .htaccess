@@ -1,0 +1,13 @@
+
+RewriteEngine on
+
+# Use PHP5 Single php.ini as default
+AddHandler application/x-httpd-php5s .php
+
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.*)\?*$ index.php [L,QSA]
+

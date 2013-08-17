@@ -1,0 +1,56 @@
+
+body {
+	font-family:"Verdana",sans-serif;
+	font-size:12px;
+	margin: 0px 0px 0px 0px;
+	padding:35px 35px 35px 35px;
+}
+
+#bg-img {
+	position:fixed;
+	z-index:0;
+	top:0%;
+	left:0%;
+	right:0%;
+	bottom:0%;
+	background-image:url('/img/bg.jpg');
+	background-attachment: scroll;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:75% bottom;
+	margin:0px 0px 0px 0px;
+
+}
+
+a {
+	color:black;		
+}
+textarea {
+	width:80%;
+	height:200px;
+}
+
+#content {	
+	margin:0px 0px 0px 0px;
+	padding:50px 50px 50px 50px;
+}
+header {
+	padding:50px 50px 50px 50px;
+	margin:0px 0px 0px 0px;
+	border-bottom:1px double black;
+}
+
+#all {
+	background-color:white;
+	position:absolute;
+	top:35px;
+	width:618px;
+	opacity:.618;
+	z-index:1;
+	border:1px dotted black;
+}
+
+a :clicked {
+	color:#000;
+}
+

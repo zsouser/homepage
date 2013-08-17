@@ -1,0 +1,25 @@
+
+.social-button {
+	width:64px;
+	height:64px;
+	padding:5px 5px 5px 5px;
+	float:right;
+	clear:right;
+	border-left:1px dotted black;
+	padding-left:10px;
+	margin-left:10px;
+}
+
+#social {
+height:100%;
+border-left:1px dotted black;
+clear:both;
+}
+#comments {
+	width:420px;
+}
+
+#welcome p {
+	text-indent: 20px;
+	margin:10px;
+}

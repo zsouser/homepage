@@ -1,0 +1,64 @@
+
+
+
+#blog-thumb {
+	text-align:left;
+	border:1px dotted black;
+	background-color:#ccc;
+	margin:10px;
+	padding:15px;
+}
+
+#blog-thumb p {
+	text-align:justify;
+}
+
+#controls div, .control {
+	display:inline;
+	float:right;
+	padding-left:5px;
+}
+
+
+#new-edit {
+	width:100%;
+}
+
+#add-blog {
+	clear:both;
+}
+
+#blog-desc {
+	text-align: justify;
+}
+
+
+
+.post-title {
+	display:inline;
+	margin-right:50px;
+}
+
+
+#post {
+	background-color:#ccc;
+	border:1px dotted black;
+	padding:10px;
+	margin:10px;
+	
+}
+#post .top {
+	border-bottom:1px dotted black;
+	padding-bottom:10px;
+}
+#post .body {
+	padding:20px;
+}
+#pages {
+	text-align: center;
+}
+#pages a{
+	color:black;
+	padding-left:10px;
+	padding-right:10px;
+}
